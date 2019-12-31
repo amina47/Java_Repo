@@ -22,7 +22,7 @@ public class classworkdec30 {
 
 
         */
-public static void maid (string[] args) {
+public static void main (string[] args) {
 
         }
 String month = "August";
@@ -31,7 +31,7 @@ switch (month ) {
         case "jan":
             case "Feb" :
          case "Mar":
-         System.out.println( Winter );
+         System.out.println("jan " + "Feb "+ "Mar" = Winter );
          break;
          case "Apr":
              case "May":
@@ -47,5 +47,5 @@ switch (month ) {
                          case "Nov":
                              case"Dec":
                                  system.out.println(Fall);
-                                 default (invalid);
+                                 default (none);
         }

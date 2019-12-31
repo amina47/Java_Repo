@@ -40,23 +40,6 @@
 //problem 6
 
 
-      if   boolean is Item milk = true;
-
-
-        System.out.println( "aisle 8");
-
-        else ();
-        System.out.println( out of stock);
-
-
-
-
-            }
-
-
-
-
-
 
 
 
@@ -68,14 +51,17 @@
 
 //
 //
-//
-//
+
+//1.
 // . Menu
     boolean isGuestOneVegan = true;
     boolean isGuesttwoVegan = true;
     Are both vegan? only offer up vegan dishes.
     At least one vegan? make sure offer up some vegan options.
-            Else, offer anything on the menu
+            Else, offer anything on the menu//**
+
+
+
 -----------------------
         2. Driver Controller
  * I want to be able to put car on P mode, D mode, N mode, R mode
