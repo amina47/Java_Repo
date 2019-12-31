@@ -2,7 +2,7 @@ package Basic;
 
 import java.util.Scanner;
 
-class scaleconversion
+class tempconversion
 
 //Fahrenheit to Cesius
  //import  java.util.Scanner
@@ -10,6 +10,7 @@ class scaleconversion
 
 
     public static void main(String[] args) {
+
 
     }
 
