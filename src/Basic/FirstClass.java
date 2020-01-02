@@ -1,6 +1,6 @@
 package Basic;
 
-public class FirstClass {
+public class hw2{
     public static void main(String[] args) {
 ///)
 //String myStatment = "I am a good programmer";
@@ -30,16 +30,16 @@ String extractedString = myStatement.substring(12,22);
 String[] words = myStatement.split(  "");
         System.out.println("number of Words " + words.length);
 
-        String replaceStatement = myStatement.replace(  "r",  "f");
+     String replaceStatement = myStatement.replace(  "r",  "f");
         System.out.println(replaceStatement);
 
 //problem 2
 
         String  name = "Amina";
-        int count = name.lastIndexOf("");
-        System.out.println("count with lastIndexOf):" + count);
-int charCount =name.toCharArray().length;
-        System.out.println("Count with charArray" + charCount);
+            int count = name.lastIndexOf("");
+            System.out.println("count with lastIndexOf):" + count);
+            int charCount =name.toCharArray().length;
+            System.out.println("Count with charArray" + charCount);
 
 
 

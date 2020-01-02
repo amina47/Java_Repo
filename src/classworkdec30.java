@@ -15,6 +15,11 @@ public class classworkdec30 {
         }
     })
 }
+
+
+
+
+
 **//int temp = 45;
         //If temp is 32 or lower then print "It is freezing outside!"
         //If temp is 100 or higher then print  "It is hot outside"
