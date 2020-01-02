@@ -1,4 +1,3 @@
-package Basic;
 public class  hwkiv {
 
 
@@ -16,7 +15,7 @@ public static void main(String[] args) {
     //        boolean isGuestTwoVegan = true;
 
 
-    boolean "isguestOnevegan" ="isguesttwovegan"; {
+    boolean "isguestOpackage Basic;\nnevegan" ="isguesttwovegan"; {
         System.out.println(" offer only vegan dishes");{
 
         if ( " isguestonevegan ,isguesttwovegan " = "false");{
