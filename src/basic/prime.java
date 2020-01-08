@@ -24,7 +24,7 @@ public class prime {
             remainder=number%i;
             System.out.println(number+" Divided by "+ i + " gives a remainder "+ remainder);
 
-            //if remainder is 0 than number is not prime and break loop. Else continue loop
+            //if remainder is 0 then number is not prime and break loop. Else continue loop
             if(remainder==0)
             {
                 isPrime=false;
@@ -39,5 +39,12 @@ public class prime {
             System.out.println(number + " is not a Prime number");
     }
 }
+/*
+ * *7
+ * 7/2
+ * 7/3
+ * 7/4
+ * 7/5
+ *7/6
 
-
+//for  (int i=2;i checkprime; i+= ) {//for condition  can also be,i<checkprime}*/

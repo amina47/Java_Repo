@@ -15,7 +15,7 @@ public class grade {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter percentage");
         int percentage = sc.nextInt();
-        char grade;
+
 
         if(percentage>=90){
             System.out.println("grade = 'A'");
