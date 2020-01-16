@@ -6,39 +6,41 @@ class loginValidation {
 
 
      public static void main(String[] args) {
-
          //	instance of scanner
-         Scanner scan = new Scanner(System.in);
+                                            Scanner scan = new Scanner(System.in);
         // tell user to enter username
-         System.out.println("please enter username");
-         String name = scan.nextLine();
+                                            String userName;
+                                             String passWord ;
+                                             String username = scan.nextLine();
          //Tell user to enter password;
-          System.out.println("Please enter your password");
+                                            System.out.println("please enter username"+ "Please enter your password");
          //takes input from console and storing the value into actualPassword variable
-         String actualPassword = scan.nextLine();
+                                            String actualPassword = scan.nextLine();
          //setting expected password which is associated with user account details in database
-         String expectedPassword = "technosoft";
+                                             String expectedPassword = "technosoft";
          //Creating for loop to give user max tries to enter valid password and log the user to system if
          //correct password is entered
-         for (int i = 0; i < 5; i++) {
+                                             for (int i = 0; i < 5; i++) {
              //checking if actual password is not equal to expected password
-             if (!actualPassword.equals(expectedPassword)) {
-                 //subtracting the count by iteration so user will have less tries (-1 every miss tries)
-                 int count = 5 - i;
+                                             if (!actualPassword.equals(expectedPassword)) {
+           // subtracting the count by iteration so user will have less tries (-1 every miss tries)
+                                                 // int count = (5 - i);
                  //console message to user to enter valid password
-                 System.out.println("Please enter the valid password");
+                                                System.out.println("Please enter the valid password");
                  //console message to let user know how many more tries he has left with
-                 System.out.println("You have " + count + " more tries");
+                                                 int count = 5-1;
+
+                                            System.out.println("You have " + count + " more tries");
                  //letting user to update the actualPassword value with new input from console
-                 actualPassword = scan.nextLine();
-                 //if count equals to 9, then notifying user with custom message
-                 if (i == 4) {
-                     System.out.println("Your account will be locked for 15 min");
+                                                 actualPassword = scan.nextLine();
+                 //if count equals to 5, then notifying user with custom message
+                                                if (i == 4) {
+                                              System.out.println("Your account will be locked for 15 min");
                  }
-             } else {
+                                             } else {
                  // if any point in the loop user enters correct password then system let user into home page
-                 System.out.println("Welcome to home page");
-                 break;
+                                               System.out.println("Welcome to home page");
+                                                 break;
              }
          }
      }
