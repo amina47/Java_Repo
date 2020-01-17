@@ -1,5 +1,6 @@
 package basic;
 
+
 public class mammals<Octopus> {
 
 
@@ -14,38 +15,43 @@ public class mammals<Octopus> {
         System.out.println(hand + leg + hair + wings);
 
 
+    }import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+
+
+}
+
+        public  void Octopus(String[]) {
+        Octopus = new Octopus() {
+
+            int hands = 8;
+            int legs = 0;
+            Str("hand+leg+hair");
+
+            System.out.println(Octopus);
+
+
+
+
+            }
+
+
+            public class;
+
+            public static void dog();
+
+            {
+                dog();
+                mammals mammals = new mammals() {
+
+            System.out.println(hair = brown);
+
+
+
+
+
+
+            }
     }
-
-
-    public void Octopus(String[]) {
-        System.out.println("hand+leg+hair");
-
-         Octopus = new mammals() {
-        (
-             int hands = 8;
-             int legs = 0;
-             String hair = "white");
-
-             {
-
-
-             }
-
-
-             public class;
-
-             public static void dog();
-
-             {
-                 dog();=new mammals() {
-
-
-             }
-             }
-
-            System.out.println("hair"="brown");
-
-         }
 
 
 
@@ -67,7 +73,6 @@ Create 3 creations with below specifications:
   octopus -> hands=8; legs=0; hair=white
   dog -> hair=brown
 */
-
 
 
 
