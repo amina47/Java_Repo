@@ -9,8 +9,6 @@ public class guest {
     private int partySize;
     private int seatCount;
 
-    public guest() {
-    }
 
     public void printRestaurantSummary() {
 
@@ -22,30 +20,30 @@ public class guest {
 
 
     public boolean isseatavailable(int partySize) {
-        /* private void int seatcount = guestCapacity - guestCount; */
+         private void int seatcount = guestCapacity - guestCount;
 
-        if (partySize <=( int seatCount)){
+        if (partySize > ( int seatCount)){
+            System.out.println (" seating not availabe-waiting time ()");
 
-            System.out.println(" seat party:welcome");
+        }
+        else{
+            System.out.println ("greeting welcome");
 
-        }    else{
-            System.out.println("seating not available- waiting time=()");
-        }
-        public void setDetails (String name,int guestCapacity){
-            this.name = name;
-            this.guestCapacity = guestCapacity;
-        }
-        public void setGuestCount ( int guestCount){
-            this.guestCount += guestCount;
-        }
-        public void setRemoveParty(int removeParty ){
+            public void setDetails (String name,int guestCapacity){
+                this.name = name;
+                this.guestCapacity = guestCapacity;
+            }
+            public void setGuestCount ( int guestCount){
+                this.guestCount += guestCount;
+            }
+            public void setRemoveParty ();
+            int removeParty;
             this.guestCount = this.guestCount - removeParty;
+
         }
+
 
     }
-
-
-}
 
 /*
         * Create a restaurant class with attribute name, guestCapacity, guestCount

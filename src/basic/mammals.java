@@ -15,7 +15,7 @@ public class mammals<Octopus> {
         System.out.println(hand + leg + hair + wings);
 
 
-    }import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+    }
 
 
 }
